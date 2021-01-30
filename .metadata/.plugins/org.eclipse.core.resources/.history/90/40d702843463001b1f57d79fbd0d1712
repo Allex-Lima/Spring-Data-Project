@@ -1,0 +1,5 @@
+package reprository;
+
+public interface ProfessorRepository {
+
+}
