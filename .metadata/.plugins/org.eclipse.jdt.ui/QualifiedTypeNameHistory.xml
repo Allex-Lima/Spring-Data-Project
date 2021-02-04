@@ -6,4 +6,12 @@
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="orm.Professor"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="br.com.xavecoding.regesc.RegescApplication"/>
+    <fullyQualifiedTypeName name="br.com.xavecoding.regesc.repository.ProfessorRepository"/>
+    <fullyQualifiedTypeName name="br.com.xavecoding.regesc.orm.Professor"/>
 </qualifiedTypeNameHistroy>
