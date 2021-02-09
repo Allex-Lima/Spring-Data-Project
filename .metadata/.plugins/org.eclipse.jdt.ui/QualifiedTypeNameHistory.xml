@@ -12,6 +12,9 @@
     <fullyQualifiedTypeName name="orm.Professor"/>
     <fullyQualifiedTypeName name="java.lang.Deprecated"/>
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.RegescApplication"/>
-    <fullyQualifiedTypeName name="br.com.xavecoding.regesc.repository.ProfessorRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.orm.Professor"/>
+    <fullyQualifiedTypeName name="br.com.xavecoding.regesc.repository.ProfessorRepository"/>
+    <fullyQualifiedTypeName name="br.com.xavecoding.regesc.service.CrudProfessorService"/>
 </qualifiedTypeNameHistroy>
