@@ -17,4 +17,5 @@
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.orm.Professor"/>
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.repository.ProfessorRepository"/>
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.service.CrudProfessorService"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
 </qualifiedTypeNameHistroy>

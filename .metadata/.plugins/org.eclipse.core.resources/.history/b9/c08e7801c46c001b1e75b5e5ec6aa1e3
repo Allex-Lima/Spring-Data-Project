@@ -109,10 +109,9 @@ public class CrudProfessorService {
 		System.out.println();
 	}
 	
-	// Deletar os dados
 	private void deletar(Scanner scanner) {
 		
-		System.out.print("Digite o ID do Professor: ");
+		System.out.print("Digite o ID do Professor");
 		Long id = scanner.nextLong();
 		
 		this.professorRepository.deleteById(id);
