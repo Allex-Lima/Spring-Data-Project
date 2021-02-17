@@ -1,0 +1,41 @@
+package br.com.xavecoding.regesc.service;
+
+import java.util.Scanner;
+
+import br.com.xavecoding.regesc.repository.DisciplinaRepository;
+import br.com.xavecoding.regesc.repository.ProfessorRepository;
+
+public class CrudDisciplinaService {
+
+	private DisciplinaRepository disciplinaRepository;
+	private ProfessorRepository professorRepository;
+
+	public CrudDisciplinaService(DisciplinaRepository disciplinaRepository, 
+			ProfessorRepository professorRepository) {
+
+		this.disciplinaRepository = disciplinaRepository;
+		this.professorRepository = professorRepository;
+	}
+
+	public void menu(Scanner scanner) {
+
+		Boolean  isTrue = true;
+
+		while(isTrue) {
+			System.out.println("Qual a opção que você quer executar?");
+			System.out.println("0 - Voltar ao menu anterior");
+			System.out.println("1 - Cadastrar nova disciplina");
+			System.out.println("2 - Atualizar uma disciplina");
+			System.out.println("3 - Visualizar todas as disciplina");
+			System.out.println("4 - Deletar uma disciplina");
+
+			int opcao = scanner.nextInt();
+
+			switch(opcao) {
+			case 1:
+				this.cadastrar(scanner);
+				break;
+			}
+		}
+	}
+}
