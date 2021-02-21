@@ -3,8 +3,6 @@ package br.com.xavecoding.regesc.service;
 import java.util.Optional;
 import java.util.Scanner;
 
-import javax.transaction.Transactional;
-
 import org.springframework.stereotype.Service;
 
 import br.com.xavecoding.regesc.orm.Disciplina;
@@ -23,7 +21,6 @@ public class CrudProfessorService {
 		this.professorRepository = professorRepository;
 	}
 	
-	@Transactional
 	public void menu(Scanner scanner) {
 		Boolean isTrue = true;
 
@@ -127,7 +124,6 @@ public class CrudProfessorService {
 		
 	}
 	
-	@Transactional
 	public void visualizarProfessor(Scanner scanner) {
 		
 		System.out.print("Digite o ID do Professor: ");

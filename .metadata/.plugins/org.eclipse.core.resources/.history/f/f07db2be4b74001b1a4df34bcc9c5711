@@ -12,6 +12,7 @@ import br.com.xavecoding.regesc.orm.Professor;
 import br.com.xavecoding.regesc.repository.ProfessorRepository;
 
 @Service
+@Transactional
 public class CrudProfessorService {
 	
 	// Depedência da classe CrudProfessorService
@@ -23,7 +24,7 @@ public class CrudProfessorService {
 		this.professorRepository = professorRepository;
 	}
 	
-	@Transactional
+	//@Transactional
 	public void menu(Scanner scanner) {
 		Boolean isTrue = true;
 
@@ -127,7 +128,7 @@ public class CrudProfessorService {
 		
 	}
 	
-	@Transactional
+	//@Transactional
 	public void visualizarProfessor(Scanner scanner) {
 		
 		System.out.print("Digite o ID do Professor: ");

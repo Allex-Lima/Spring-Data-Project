@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
     <fullyQualifiedTypeName name="orm.Professor"/>
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.RegescApplication"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
@@ -25,4 +24,6 @@
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.repository.ProfessorRepository"/>
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.orm.Professor"/>
     <fullyQualifiedTypeName name="br.com.xavecoding.regesc.orm.Disciplina"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="br.com.xavecoding.regesc.service.CrudDisciplinaService"/>
 </qualifiedTypeNameHistroy>
